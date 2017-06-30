@@ -70,7 +70,7 @@ class JSONTemplateFiles {
   }
 
   getDestPath(file) {
-    const fileRegex = new RegExp(`${path.sep}templates${path.sep}(.*)$`)
+    const fileRegex = new RegExp(`/templates/(.*)$`)
     const matches = file.match(fileRegex)
     const filePartial = matches[matches.length - 1]
     const filePath = path.join(this.outputPath, filePartial)
