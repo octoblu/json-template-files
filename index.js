@@ -87,7 +87,7 @@ class JSONTemplateFiles {
 
   copyFile(file) {
     return fs.ensureDir(file.dirname).then(() => {
-      return fs.copy(file, file.destPath, { overwrite: true })
+      return fs.copy(file.srcPath, file.destPath, { overwrite: true })
     })
   }
 }

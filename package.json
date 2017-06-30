@@ -1,6 +1,6 @@
 {
   "name": "json-template-files",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Merge JSON templated files",
   "main": "index.js",
   "repository": "git@github.com:octoblu/json-template-files.git",
