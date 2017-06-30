@@ -1,0 +1,11 @@
+language: node_js
+node_js:
+- '8'
+deploy:
+  provider: npm
+  email: serveradmin@octoblu.com
+  api_key:
+    secure: ctkDte9Faiu4+4JpVdDYnoPJ8tgjxaSdzviw0UACQqFj5SkYcct3iqwZiok8rQzZcQH6MZYVABO8JTc6FcYujsH9+5J0ZV5AMr3z0fbVZhIyPhadQxqqcyu7gg2uAjiuDiV7iQvB8XGIkHKujV2ipyk9jIuUi0hgg6/glJuux90p+JAIPVeFxPkBcqLWeplJuW+ssvM+2NE6cOe4uP5bb+5JcMtzY+L/wf8FV/86060XJ2JWJXQryW32Z2sSwZ5swEu+TwL55+wnMH6N4/lcxj/KT5SNo2jV75ehyqPvQVcD0Qi1Iib63i9oNfDOpTipHfOJpm9mYwSjYFtgn2n/ldCzkapz0x3S/9Z65MbzcVW8PpbeTmKQuTKsIildiQDJhJSDrEyiivw8OzbJUb6vrw7zmrLnzvxXsFsHRAHqNWIgs4xqLWSf4kR1caYRmwKZ1QHbSZWaTuVsTNyP582SXUVCUw7WhRdDbkJiyFSyl5+vjJjONdRF08+LInuhz6+2lRwf2nzk87UZLHo7pEvNOppBBge1mJEsZR6CFYXkVUQMmjjY6SsdP8RCcufHn3P06b5gcY+fz8l7nkiKYuAuQsu3WavEJ6G7h0aF7WBQMVi9xwloESGPPCVsvBX38OTZ6zmJ5BCq1iG8UtBH+T9UOjqXDPpN6E+IDicytEUrFTI=
+  on:
+    tags: true
+    repo: octoblu/json-template-files
